@@ -1,0 +1,13 @@
+.blogs-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+.blog-card {
+  border-color: grey;
+  padding: 0.6rem;
+  margin: 1.5rem;
+  border-radius: 1rem;
+  background-color: rgba(128, 128, 128, 0.938);
+  text-align: center;
+}

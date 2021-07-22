@@ -1,0 +1,49 @@
+.form-container {
+  margin: 3rem 25vw;
+  padding: 5rem;
+
+  border: 3px solid blueviolet;
+  border-radius: 1rem;
+  min-height: fit-content;
+
+  text-align: center;
+
+  .form-control {
+    display: block;
+    padding: 0 5rem;
+    margin-bottom: 2rem;
+
+    &__main {
+      display: flex;
+      justify-content: space-between;
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      textarea {
+        display: block;
+        text-align: left;
+        width: 75%;
+        padding: 6px 12px;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+      }
+      label {
+        font-size: 1.5rem;
+        text-align: left;
+        margin-right: 3rem;
+      }
+    }
+  }
+
+  button {
+    padding: 1rem;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    color: #ffff;
+    background-image: linear-gradient(
+      to right bottom,
+      rgb(0, 89, 255),
+      rgb(36, 128, 0)
+    );
+  }
+}

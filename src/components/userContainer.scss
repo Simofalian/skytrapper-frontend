@@ -1,0 +1,16 @@
+.user {
+  display: block;
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+
+  &__card {
+    background-color: rgb(47, 213, 255);
+    width: 30rem;
+    margin: 2rem;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+  }
+}

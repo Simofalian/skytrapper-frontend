@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 0;
+  padding: 5px;
+  color: #ffffff;
+
+  h1 {
+    font-size: 3.5rem;
+  }
+  &__nav {
+    justify-content: space-evenly;
+    width: 85vw;
+    align-self: center;
+    display: none;
+
+    a {
+      text-decoration: none;
+      color: #ffff;
+      font-size: 2.5rem;
+      width: auto;
+    }
+  }
+
+  .active {
+    color: orangered;
+  }
+
+  &:hover &__nav {
+    display: flex;
+  }
+}
